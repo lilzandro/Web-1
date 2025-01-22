@@ -10,15 +10,15 @@ import { Link } from "react-router-dom";
 export function SignIn() {
   return (
     <section className="m-8 flex gap-4">
-      <div className="w-full lg:w-3/5 mt-24">
+      <div className="w-full lg:w-3/5 mt-14">
         <div className="text-center">
-          <Typography variant="h2" className="font-bold mb-4">Sign In</Typography>
-          <Typography variant="paragraph" color="blue-gray" className="text-lg font-normal">Enter your email and password to Sign In.</Typography>
+          <Typography variant="h2" className="font-bold mb-4">Iniciar sesión</Typography>
+          <Typography variant="paragraph" color="blue-gray" className="text-lg font-normal">Ingrese su correo electrónico y contraseña para iniciar sesión.</Typography>
         </div>
         <form className="mt-8 mb-2 mx-auto w-80 max-w-screen-lg lg:w-1/2">
           <div className="mb-1 flex flex-col gap-6">
             <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
-              Your email
+              Correo electrónico
             </Typography>
             <Input
               size="lg"
@@ -29,7 +29,7 @@ export function SignIn() {
               }}
             />
             <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
-              Password
+              Contraseña
             </Typography>
             <Input
               type="password"
@@ -48,37 +48,25 @@ export function SignIn() {
                 color="gray"
                 className="flex items-center justify-start font-medium"
               >
-                I agree the&nbsp;
+                Acepto los&nbsp;
                 <a
                   href="#"
                   className="font-normal text-black transition-colors hover:text-gray-900 underline"
                 >
-                  Terms and Conditions
+                  Términos y Condiciones
                 </a>
               </Typography>
             }
             containerProps={{ className: "-ml-2.5" }}
           />
           <Button className="mt-6" fullWidth>
-            Sign In
+            Iniciar sesión
           </Button>
 
           <div className="flex items-center justify-between gap-2 mt-6">
-            <Checkbox
-              label={
-                <Typography
-                  variant="small"
-                  color="gray"
-                  className="flex items-center justify-start font-medium"
-                >
-                  Subscribe me to newsletter
-                </Typography>
-              }
-              containerProps={{ className: "-ml-2.5" }}
-            />
             <Typography variant="small" className="font-medium text-gray-900">
               <a href="#">
-                Forgot Password
+                Has olvidado tu contraseña?
               </a>
             </Typography>
           </div>
@@ -97,23 +85,19 @@ export function SignIn() {
                   </clipPath>
                 </defs>
               </svg>
-              <span>Sign in With Google</span>
-            </Button>
-            <Button size="lg" color="white" className="flex items-center gap-2 justify-center shadow-md" fullWidth>
-              <img src="/img/twitter-logo.svg" height={24} width={24} alt="" />
-              <span>Sign in With Twitter</span>
+              <span>Iniciar sesión con Google</span>
             </Button>
           </div>
           <Typography variant="paragraph" className="text-center text-blue-gray-500 font-medium mt-4">
-            Not registered?
-            <Link to="/sign-up" className="text-gray-900 ml-1">Create account</Link>
+            ¿No estás registrado?
+            <Link to="/sign-up" className="text-gray-900 ml-1">Crear una cuenta</Link>
           </Typography>
         </form>
 
       </div>
-      <div className="w-2/5 h-full hidden lg:block">
+      <div className="w-3/5 h-full hidden lg:block mt-14 mr-32">
         <img
-          src="/img/pattern.png"
+          src="https://img.freepik.com/vector-gratis/composicion-programadores-isometricos-coloreados-descripcion-desarrollo-software-hombre-sentado-trabajo_1284-29045.jpghttps://img.freepik.com/vetores-premium/ilustracao-isometrica-do-conceito-3d-da-equipe-de-desenvolvimento-de-software_107173-14061.jpg"
           className="h-full w-full object-cover rounded-3xl"
         />
       </div>

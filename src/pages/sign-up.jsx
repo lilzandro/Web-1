@@ -10,25 +10,25 @@ import { Link } from "react-router-dom";
 export function SignUp() {
   return (
     <section className="m-8 flex">
-            <div className="w-2/5 h-full hidden lg:block">
+      <div className="w-3/5 h-full hidden lg:block mt-14 ml-32">
         <img
-          src="/img/pattern.png"
+          src="https://img.freepik.com/vector-gratis/composicion-programadores-isometricos-coloreados-descripcion-desarrollo-software-hombre-sentado-trabajo_1284-29045.jpghttps://img.freepik.com/vetores-premium/ilustracao-isometrica-do-conceito-3d-da-equipe-de-desenvolvimento-de-software_107173-14061.jpg"
           className="h-full w-full object-cover rounded-3xl"
         />
       </div>
       <div className="w-full lg:w-3/5 flex flex-col items-center justify-center">
         <div className="text-center">
-          <Typography variant="h2" className="font-bold mb-4">Join Us Today</Typography>
-          <Typography variant="paragraph" color="blue-gray" className="text-lg font-normal">Enter your email and password to register.</Typography>
+          <Typography variant="h2" className="font-bold mb-4">Únete a nosotros hoy</Typography>
+          <Typography variant="paragraph" color="blue-gray" className="text-lg font-normal">Ingresa tu correo electrónico y contraseña para registrarte.</Typography>
         </div>
         <form className="mt-8 mb-2 mx-auto w-80 max-w-screen-lg lg:w-1/2">
           <div className="mb-1 flex flex-col gap-6">
             <Typography variant="small" color="blue-gray" className="-mb-3 font-medium">
-              Your email
+              Correo electrónico
             </Typography>
             <Input
               size="lg"
-              placeholder="name@mail.com"
+              placeholder="correo@mail.com"
               className=" !border-t-blue-gray-200 focus:!border-t-gray-900"
               labelProps={{
                 className: "before:content-none after:content-none",
@@ -42,19 +42,19 @@ export function SignUp() {
                 color="gray"
                 className="flex items-center justify-start font-medium"
               >
-                I agree the&nbsp;
+                Acepto los&nbsp;
                 <a
                   href="#"
                   className="font-normal text-black transition-colors hover:text-gray-900 underline"
                 >
-                  Terms and Conditions
+                  Términos y Condiciones
                 </a>
               </Typography>
             }
             containerProps={{ className: "-ml-2.5" }}
           />
           <Button className="mt-6" fullWidth>
-            Register Now
+            Regístrese ahora
           </Button>
 
           <div className="space-y-4 mt-8">
@@ -72,16 +72,12 @@ export function SignUp() {
                   </clipPath>
                 </defs>
               </svg>
-              <span>Sign in With Google</span>
-            </Button>
-            <Button size="lg" color="white" className="flex items-center gap-2 justify-center shadow-md" fullWidth>
-              <img src="/img/twitter-logo.svg" height={24} width={24} alt="" />
-              <span>Sign in With Twitter</span>
+              <span>Iniciar sesión con Google</span>
             </Button>
           </div>
           <Typography variant="paragraph" className="text-center text-blue-gray-500 font-medium mt-4">
-            Already have an account?
-            <Link to="/sign-in" className="text-gray-900 ml-1">Sign in</Link>
+            ¿Ya tienes una cuenta?
+            <Link to="/sign-in" className="text-gray-900 ml-1">Iniciar sesión</Link>
           </Typography>
         </form>
 
