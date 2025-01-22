@@ -29,12 +29,10 @@ export function Home() {
                 color="white"
                 className="mb-6 font-black"
               >
-                Your story starts with us.
+                Domina React en solo 4 semanas.
               </Typography>
               <Typography variant="lead" color="white" className="opacity-80">
-                This is a simple example of a Landing Page you can build using
-                Material Tailwind. It features multiple components based on the
-                Tailwind CSS and Material Design by Google.
+                Este curso intensivo está diseñado para que desarrolladores principiantes y entusiastas den el salto hacia la creación de aplicaciones web profesionales con la tecnología más demandada del mercado.
               </Typography>
             </div>
           </div>
@@ -65,42 +63,35 @@ export function Home() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Working with us is a pleasure
+                Aprende con Nosotros es un Placer
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
+                Nuestro enfoque práctico y accesible garantiza que tu aprendizaje sea claro y efectivo. Aprovecha cada módulo sin confusión, y avanza al ritmo que te resulte más cómodo.
                 <br />
                 <br />
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
+                El curso está diseñado con materiales fáciles de entender y herramientas interactivas que acelerarán tu progreso. Puedes comenzar a practicar de inmediato, solo asegúrate de seguir los módulos y aplicar los conceptos desde el principio.
               </Typography>
-              <Button variant="filled">read more</Button>
+              <Button variant="filled">Leer mas</Button>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="shadow-lg border shadow-gray-500/10 rounded-lg">
                 <CardHeader floated={false} className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/img/teamwork.png"
+                    src="https://media.istockphoto.com/id/1385099270/es/vector/equipo-de-programadores-de-ti-que-trabajan-en-el-desarrollo-web-en-ordenadores-concepto-de.jpg?s=612x612&w=0&k=20&c=po_Oi03tSRwoIvCFPjyxjiVIoS9Qnnrli3PcUXkQ2p8="
                     className="h-full w-full"
                   />
                 </CardHeader>
                 <CardBody>
-                  <Typography variant="small" color="blue-gray" className="font-normal">Enterprise</Typography>
                   <Typography
                     variant="h5"
                     color="blue-gray"
                     className="mb-3 mt-2 font-bold"
                   >
-                    Top Notch Services
+                    Crecimiento con Gran Potencial
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
+                    Nuestro curso ofrece una formación integral y de alta calidad que se adapta a tus necesidades. Desde conceptos básicos hasta técnicas avanzadas, nuestro objetivo es proporcionarte las mejores herramientas para tu desarrollo profesional.
                   </Typography>
                 </CardBody>
               </Card>
@@ -110,10 +101,8 @@ export function Home() {
       </section>
       <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
-          <PageTitle section="Our Team" heading="Here are our heroes">
-            According to the National Oceanic and Atmospheric Administration,
-            Ted, Scambos, NSIDClead scentist, puts the potentially record
-            maximum.
+          <PageTitle section="Nuestro Equipo" heading="Conoce a los responsables">
+            Nuestro equipo está formado por profesionales apasionados y comprometidos con tu éxito. Aunque somos una empresa nueva, cada uno de nosotros aporta experiencia y dedicación para brindarte el mejor contenido y soporte.
           </PageTitle>
           <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
             {teamData.map(({ img, name, position, socials }) => (
@@ -138,10 +127,8 @@ export function Home() {
       </section>
       <section className="relative bg-white py-24 px-4">
         <div className="container mx-auto">
-          <PageTitle section="Co-Working" heading="Build something">
-            Put the potentially record low maximum sea ice extent tihs year down
-            to low ice. According to the National Oceanic and Atmospheric
-            Administration, Ted, Scambos.
+          <PageTitle section="Co-Working" heading="Construye algo grande con nosotros">
+            Estamos en las primeras etapas de nuestra empresa, pero juntos podemos crear algo significativo. Únete a nosotros para aprender y crecer, mientras colaboramos en la creación de contenido educativo de calidad.
           </PageTitle>
           <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (
@@ -165,15 +152,15 @@ export function Home() {
               </Card>
             ))}
           </div>
-          <PageTitle section="Contact Us" heading="Want to work with us?">
-            Complete this form and we will get back to you in 24 hours.
+          <PageTitle section="Contacta con nosotros" heading="¿Quieres trabajar con nosotros?">
+            Complete este formulario y nos comunicaremos con usted en 24 horas.
           </PageTitle>
           <form className="mx-auto w-full mt-12 lg:w-5/12">
             <div className="mb-8 flex gap-8">
-              <Input variant="outlined" size="lg" label="Full Name" />
-              <Input variant="outlined" size="lg" label="Email Address" />
+              <Input variant="outlined" size="lg" label="Nombre completo" />
+              <Input variant="outlined" size="lg" label="Dirección de correo electrónico" />
             </div>
-            <Textarea variant="outlined" size="lg" label="Message" rows={8} />
+            <Textarea variant="outlined" size="lg" label="Mensaje" rows={8} />
             <Checkbox
               label={
                 <Typography
@@ -181,19 +168,19 @@ export function Home() {
                   color="gray"
                   className="flex items-center font-normal"
                 >
-                  I agree the
+                  Acepto los
                   <a
                     href="#"
                     className="font-medium transition-colors hover:text-gray-900"
                   >
-                    &nbsp;Terms and Conditions
+                    &nbsp;Términos y Condiciones
                   </a>
                 </Typography>
               }
               containerProps={{ className: "-ml-2.5" }}
             />
             <Button variant="gradient" size="lg" className="mt-8" fullWidth>
-              Send Message
+              Enviar mensaje
             </Button>
           </form>
         </div>
