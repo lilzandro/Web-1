@@ -5,24 +5,24 @@ import {
 export const featuresData = [
   {
     color: "gray",
-    title: "Awarded Agency",
+    title: "Certificado Avalado",
     icon: ChatBubbleBottomCenterTextIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+      "Obtén un certificado oficial al finalizar el curso que avala tus conocimientos en React. Ideal para mejorar tu perfil profesional y destacar en el mercado laboral.",
   },
   {
     color: "gray",
-    title: "Free Revisions",
+    title: "Acceso Ilimitado y Actualizaciones",
     icon: ChatBubbleBottomCenterTextIcon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "Accede a los materiales del curso en cualquier momento y disfruta de actualizaciones gratuitas. Mantente al día con las últimas tendencias y herramientas de React.",
   },
   {
     color: "gray",
-    title: "Verified Company",
+    title: "Confianza Comprobada",
     icon: ChatBubbleBottomCenterTextIcon,
     description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "Nuestro equipo de expertos está comprometido a ofrecerte cursos prácticos y de alta calidad. Aunque somos nuevos, nuestra pasión y dedicación aseguran una experiencia de aprendizaje excepcional.",
   },
 ];
 
