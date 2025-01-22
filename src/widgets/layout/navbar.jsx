@@ -9,6 +9,7 @@ import {
   IconButton,
 } from "@material-tailwind/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+import { CodeBracketSquareIcon } from "@heroicons/react/24/solid"; // Importar el ícono
 
 export function Navbar({ brandName, routes, action }) {
   const [openNav, setOpenNav] = React.useState(false);
@@ -64,9 +65,12 @@ export function Navbar({ brandName, routes, action }) {
     <MTNavbar color="transparent" className="p-3">
       <div className="container mx-auto flex items-center justify-between text-white">
         <Link to="/">
-          <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold">
-            {brandName}
-          </Typography>
+          <div className="flex items-center">
+            <Typography className="mr-2 ml-2 cursor-pointer py-1.5 font-bold">
+              {brandName}
+            </Typography>
+            <CodeBracketSquareIcon className="w-10 h-10" /> {/* Hacer el ícono más grande */}
+          </div>
         </Link>
         <div className="hidden lg:block pr-16 text-center">{navList}</div>
 
@@ -100,7 +104,7 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "Material Tailwind React",
+  brandName: "ProAcademy",
   action: (
     <a
       href="https://www.creative-tim.com/product/material-tailwind-kit-react"

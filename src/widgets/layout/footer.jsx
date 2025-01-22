@@ -79,7 +79,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
 }
 
 Footer.defaultProps = {
-  title: "CursoPro",
+  title: "ProAcademy",
   description: "Cursos de calidad para tu desarrollo profesional.",
   socials: [
     {
