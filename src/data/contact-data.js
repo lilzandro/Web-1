@@ -6,22 +6,22 @@ import {
 
 export const contactData = [
   {
-    title: "Excelent Services",
+    title: "Excelentes Servicios",
     icon: BriefcaseIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Te ofrecemos cursos diseñados para impulsar tu desarrollo profesional. Aprende de forma efectiva con contenido práctico y accesible.",
   },
   {
-    title: "Grow Your Market",
+    title: "Expande tus Oportunidades",
     icon: ChartBarIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Conviértete en experto en tu área y accede a nuevas oportunidades laborales con habilidades actualizadas y valiosas.",
   },
   {
-    title: "Launch Time",
+    title: "Tu Camino Comienza Aquí",
     icon: PlayIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Da el primer paso hacia tu futuro hoy mismo. Inscríbete en nuestros cursos y comienza a aprender de los mejores.",
   },
 ];
 
