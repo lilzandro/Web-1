@@ -12,7 +12,7 @@ export function SignUp() {
     <section className="m-8 flex">
       <div className="w-3/5 h-full hidden lg:block mt-14 ml-32">
         <img
-          src="https://img.freepik.com/vector-gratis/composicion-programadores-isometricos-coloreados-descripcion-desarrollo-software-hombre-sentado-trabajo_1284-29045.jpghttps://img.freepik.com/vetores-premium/ilustracao-isometrica-do-conceito-3d-da-equipe-de-desenvolvimento-de-software_107173-14061.jpg"
+          src="/img/sub.jpeg"
           className="h-full w-full object-cover rounded-3xl"
         />
       </div>
